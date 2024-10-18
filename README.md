@@ -46,9 +46,24 @@ El proyecto está dividido en las siguientes clases:
 
 Para ejecutar el programa, simplemente ejecuta la clase `Main`. El programa mostrará el menú de opciones y te permitirá seleccionar la conversión deseada. Si seleccionas la opción 7, deberás ingresar manualmente los códigos de las monedas a convertir.
 
+### Opciones predefinidas 
+
+En estas opciones el conversor te permite realizar conversiones entre distintas monedas previamente establecidas. 
+
+Al seleccionar la opción 2 el programa te pide la cantidad que deseas convertir y al dar enter se muestra el resultado así como la fecha de actualización de la tasa de cambio.
+
+![image](https://github.com/user-attachments/assets/19db7ff0-4416-4630-9b63-52b15b5e148b)
+
+### Opción 7 
+
+En esta opción el programa te permite colocar de forma manual la moneda base y a la moneda a la cual quieres convertir (para ello necesitas saber el símbolo de tu moneda). Se muestra un ejemplo convirtiendo desde Yenes japoneses a Wones Surcoreanos.
+
+![image](https://github.com/user-attachments/assets/85fa9f0b-5811-4f87-8c0f-e7352ba562a0)
+
+
 ## API utilizada
 
-Este programa utiliza la API de Exchange Rate ([https://www.exchangerate-api.com/](https://www.exchangerate-api.com/)) para obtener tasas de cambio actualizadas. Asegúrate de que tu clave API esté correctamente configurada en la clase `ConsultaAPI`.
+Este programa utiliza la API de Exchange Rate ([https://www.exchangerate-api.com/](https://www.exchangerate-api.com/)
 
 ## Requisitos
 
